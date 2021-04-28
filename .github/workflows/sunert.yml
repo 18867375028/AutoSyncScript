@@ -3,7 +3,7 @@
 ## 每隔3小时拉取一次作者脚本到自己仓库的sunert分支
 
 
-
+/*
 name: Sunert-sync
 on:
   schedule:
@@ -32,3 +32,4 @@ jobs:
           source_branch: "master"
           destination_branch: "Sunert"
           github_token: ${{ secrets.PAT }}
+*/
